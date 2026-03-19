@@ -12,6 +12,8 @@ from typing import Dict, List, Optional, Any
 # Initialize MCP server
 mcp = FastMCP("PSSE 35+ Positive Sequence Load Flow Program")
 
+# need to do a lot of work here to find and choose a version of psse
+
 # Import and initialize PSSE Python library
 # You need to change the path to the PSSE Python library and version to the path on your computer.
 sys.path.append(r'C:\Program Files\PTI\PSSE36\36.2\PSSPY311')
